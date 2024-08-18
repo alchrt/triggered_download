@@ -1,6 +1,6 @@
 # CSV file update
 
-This solution was created for financial tracking purposes. I needed to have an updated local version of an online file with information on exchange rates (updated online every business day). However, I did not need the update for ym local file to happen daily or automatically in the background - I needed it to happen when I specifically checked or updated my tracker, and only when triggered (VBA macro assigned to trigger the execution of the specified Python script).
+This solution was created for financial tracking purposes. I needed to have an updated local version of an online file with information on daily EURPLN rate (updated online every business day). However, I did not need the update for the local file to happen daily or automatically in the background - only when I specifically checked or updated my tracker, and only when triggered (VBA macro assigned to trigger the execution of the specified Python script).
 
 ## Option 1: triggered download with full transformation in Power Query
 Python script for downloading and replacing the file: [csv_download.py](https://github.com/alchrt/triggered_download/blob/main/csv_download.py)  
