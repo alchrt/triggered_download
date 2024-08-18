@@ -11,7 +11,7 @@ Dim PythonExe, PythonScript As String
     
     ' Path to the Python Exe and script
     PythonExe = """C:\...\python.exe"""     ' path to the Python Exe file
-    PythonScript = """C:\...\csv_download.py"""     ' path to the Python script
+    PythonScript = """C:\...\python-script.py"""     ' path to the Python script: either """C:\...\csv_download.py""" or """C:\...\processed_csv.py"""
     
     ' Running the Python script
     objShell.Run PythonExe & PythonScript
