@@ -26,8 +26,8 @@ def download_csv(url, local_path, timeout=10):
         print(f"An unexpected error occurred: {err}")
 
 def main():
-    url = "https://.../your-file.csv"   # path to the specific CSV file online
-    local_path = "C:/Users/.../your-file.csv" # path to the local file that will be updated/replaced
+    url = "https://.../online-file.csv"   # path to the specific CSV file online with daily URPLN rates
+    local_path = "C:/Users/.../EUR_exchange_rates_2024.csv" # path to the local file that will be updated/replaced
     download_csv(url, local_path)
 
 # calling the function directly
