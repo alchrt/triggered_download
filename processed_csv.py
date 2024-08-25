@@ -11,7 +11,7 @@ df = data[['data', '1EUR']]
 df = df.rename(
     columns={
         'date': 'Date',
-        '1EUR': 'EUR
+        '1EUR': 'EUR'
     },
     inplace=True
 )
