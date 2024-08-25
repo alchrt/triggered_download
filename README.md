@@ -12,4 +12,4 @@ Basic transformations done in Power Query: row filtering, column renaming, punct
 Python script with transformations: [processed_csv.py](https://github.com/alchrt/triggered_download/blob/main/processed_csv.py)  
 VBA macro to run the Python script: [run_python_macro.vb](https://github.com/alchrt/triggered_download/blob/main/run_python_macro.vb)
 
-The processing in Python mirrors the transformations done in Power Query in Option 1.
+The processing in Python mirrors the transformations done in Power Query in Option 1 (including appending the data).
